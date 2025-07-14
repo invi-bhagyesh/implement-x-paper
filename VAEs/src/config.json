@@ -1,0 +1,11 @@
+{
+    "epochs": 20,
+    "batch_size": 64,
+    "lr": 0.001,
+    "save_path": "hs-512_ls-20.pt",
+    "model_params": {
+        "input_size": 784,
+        "hidden_size": 512,
+        "latent_size": 20
+    }
+}
