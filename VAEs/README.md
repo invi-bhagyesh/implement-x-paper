@@ -64,4 +64,8 @@ loss = BCE(reconstructed, target) + KLD(mu, logvar)
 - **Lilian Weng’s Blog – VAE Explained**  
   https://lilianweng.github.io/posts/2018-08-12-vae/
 
+- **bvezilic' github repository **
+  https://github.com/bvezilic/Variational-autoencoder?tab=readme-ov-file
+
+
 
