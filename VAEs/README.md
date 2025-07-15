@@ -1,8 +1,5 @@
 # Variational Autoencoder (VAE) for MNIST
 
-
-
-## Features
 - Modular VAE implementation in PyTorch
 - Configurable model and training parameters
 - Checkpointing and model saving/loading
@@ -12,7 +9,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone <this-repo-url>
+   git clone https://github.com/invi-bhagyesh/implement-x-paper
    cd implement-x-paper/VAEs
    ```
 2. **Install dependencies:**
@@ -37,12 +34,6 @@ Edit `src/config.json` to change model or training parameters:
     }
 }
 ```
-
-- `epochs`: Number of training epochs
-- `batch_size`: Batch size
-- `lr`: Learning rate
-- `save_path`: Where to save the trained model
-- `model_params`: Model architecture parameters
 
 ### Model Architecture
 
