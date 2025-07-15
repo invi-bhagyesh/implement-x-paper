@@ -56,4 +56,4 @@ class VAE(nn.Module):
         p = self.encoder(x)
         z, mu, logvar = self.latent(p)
         reconstructed_x = self.decoder(z)
-        return reconstructed_x, mu, logvar
+        return reconstructed_x, mu, logvar, z
