@@ -13,6 +13,7 @@
 - **LoRA/**: Low-Rank Adaptation for efficient fine-tuning.
 - **ORPO/**: Online RLHF Preference Optimization.
 - **VAE/**: Variational Autoencoders.
+- ViT/: Vision Transformers
 
 ## Usage
 
